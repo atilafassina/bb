@@ -7,7 +7,12 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
   "dependencies": {
+    "@heroicons/react": "^1.0.5",
     "next": "12.0.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -19,6 +24,7 @@
     "autoprefixer": "^10.4.0",
     "eslint": "7",
     "eslint-config-next": "12.0.3",
+    "prettier": "^2.4.1",
     "typescript": "4.4.4"
   }
 }

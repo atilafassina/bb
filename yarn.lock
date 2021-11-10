@@ -107,6 +107,11 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.1.tgz#9551142a1980503752536b5050fd99f4a7f13b17"
   integrity sha512-gfta+H8aziZsm8pZa0vj04KO6biEiisppNgA1kbJvFrrWu9Vm7eaUEy76DIxsuTaWvti5fkJVhllWc6ZTE+Mdw==
 
+"@heroicons/react@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.5.tgz#2fe4df9d33eb6ce6d5178a0f862e97b61c01e27d"
+  integrity sha512-UDMyLM2KavIu2vlWfMspapw9yii7aoLwzI2Hudx4fyoPwfKfxU8r3cL8dEBXOjcLG0/oOONZzbT14M1HoNtEcg==
+
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
@@ -2655,6 +2660,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
+  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
