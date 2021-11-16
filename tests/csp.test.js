@@ -54,9 +54,9 @@ describe('`report-uri`', () => {
     console.log(process.env.SENTRY_CSP_REPORT_URI)
 
     expect(directives.hasOwnProperty('report-uri')).toEqual(true)
-    // expect(directives['report-uri'][0]).toMatch(
-    //   process.env.SENTRY_CSP_REPORT_URI
-    // )
+    expect(directives['report-uri'][0]).toMatch(
+      process.env.SENTRY_CSP_REPORT_URI
+    )
   })
 })
 
