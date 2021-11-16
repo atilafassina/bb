@@ -22,8 +22,11 @@
     "@types/node": "16.11.7",
     "@types/react": "17.0.34",
     "autoprefixer": "^10.4.0",
+    "csp-header": "^5.0.0",
+    "csp_evaluator": "^1.1.0",
     "eslint": "7",
     "eslint-config-next": "12.0.3",
+    "jest": "^27.3.1",
     "prettier": "^2.4.1",
     "typescript": "4.4.4"
   }

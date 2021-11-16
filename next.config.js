@@ -21,10 +21,10 @@ const securityHeaders = [
     key: 'X-Content-Type-Options',
     value: 'nosniff',
   },
-  // {
-  //   key: 'Content-Security-Policy',
-  //   value: require('./utils/csp'),
-  // },
+  {
+    key: 'Content-Security-Policy-Report-Only',
+    value: require('./utils/csp'),
+  },
 ]
 
 const sentryWebpackPluginOptions = {
@@ -37,6 +37,15 @@ const nextConfig = {
   i18n: {
     locales: ['en', 'pt'],
     defaultLocale: 'en',
+  },
+
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: securityHeaders,
+      },
+    ]
   },
 }
 
