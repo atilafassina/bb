@@ -1,7 +1,7 @@
 import { en } from './languages/en'
-// import { de } from './languages/de'
+import { pt } from './languages/pt'
 
 export const dictionary = {
   en,
-  //   de,
+  pt,
 }

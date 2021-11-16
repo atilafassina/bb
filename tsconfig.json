@@ -6,7 +6,7 @@
       "@layouts/*": ["layouts/*"],
       "@styles/*": ["styles/*"],
       "@utils/*": ["utils/*"],
-      "@languages/*": ["languages/*"]
+      "@translations/*": ["translations/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
